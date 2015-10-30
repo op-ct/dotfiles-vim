@@ -151,6 +151,8 @@ map <F7> :set spell! spelllang=en_us spellfile=~/.vim/spellfile.add<cr>
 " toggle the undotreeplugin
 nnoremap <F5> :UndotreeToggle<cr>
 
+" align values in simple YAML
+map <F8> :Tabularize /:\zs <cr>
 
 " custom colors
 " --------------------------------------
